@@ -13,6 +13,7 @@ Rails.application.routes.draw do
   get 'makes/chevrolet'
   get 'makes/daewoo'
   get 'makes/chrysler'
+  get '/robots.:format' => 'test#robots'
 
 
   # The priority is based upon order of creation: first created -> highest priority.
