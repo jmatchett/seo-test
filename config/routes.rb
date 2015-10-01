@@ -1,6 +1,18 @@
 Rails.application.routes.draw do
   get 'test/index'
   root 'test#index'
+  get 'makes/acura'
+  get 'makes/alfa-romeo'
+  get 'makes/amc'
+  get 'makes/aston-martin'
+  get 'makes/audi'
+  get 'makes/bently'
+  get 'makes/bmw'
+  get 'makes/buick'
+  get 'makes/cadillac'
+  get 'makes/chevrolet'
+  get 'makes/daewoo'
+  get 'makes/chrysler'
 
   # The priority is based upon order of creation: first created -> highest priority.
   # See how all your routes lay out with "rake routes".
