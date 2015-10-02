@@ -13,6 +13,7 @@ Rails.application.routes.draw do
   get 'makes/chevrolet'
   get 'makes/daewoo'
   get 'makes/chrysler'
+  get 'test/test-2'
   get '/robots.:format' => 'test#robots'
 
 
